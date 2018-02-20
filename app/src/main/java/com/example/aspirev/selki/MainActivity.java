@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.avisrec) {
 
-        } else if (id == R.id.chercher) {
+        } else if (id == R.id.map) {
             MainFragment fragment = new MainFragment();
             android.support.v4.app.FragmentTransaction FragmentTransaction = getSupportFragmentManager().beginTransaction() ;
             FragmentTransaction.replace(R.id.fragment_container,fragment);
